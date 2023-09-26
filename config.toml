@@ -1,7 +1,7 @@
 # McConnellWeb
 # Configuration file for the Hugo website
 # Created: June 12, 2020
-# Luke McConnell
+# Yahya Gulshan
 # Reference files: https://hugoloveit.com/posts/
 
 # Name of the S3 bucket that is hosting the static website
@@ -11,7 +11,7 @@ baseURL = "http://yahyagulshan.com.s3-website-us-east-1.amazonaws.com"
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
-title = "Luke McConnell"
+title = "Yahya Gulshan"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
@@ -26,7 +26,7 @@ URL = "s3://yahyagulshan.com/?region=us-east-1" #your bucket here
   # LoveIt theme version
   version = "0.2.X"
   # site description
-  description = "Luke McConnell"
+  description = "Yahya Gulshan"
   # site keywords
   keywords = ["Luke", "McConnell"]
   # site default theme ("light", "dark", "auto")
@@ -99,7 +99,7 @@ URL = "s3://yahyagulshan.com/?region=us-east-1" #your bucket here
     # URL of avatar shown in home page
     avatarURL = "img/headshot.png"
     # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
-    title = "Luke McConnell"
+    title = "Yahya Gulshan"
     # subtitle shown in home page
     subtitle = "Data Scientist, Data Engineer, Cloud Data Architect"
     # whether to use typeit animation for subtitle
@@ -243,7 +243,7 @@ URL = "s3://yahyagulshan.com/?region=us-east-1" #your bucket here
       
 # Author config
 [author]
-  name = "Luke McConnell"
+  name = "Yahya Gulshan"
   email = "luke.m.mcconnell@gmail.com"
   #link = "mailto:luke.m.mcconnell@gmail.com"
   link = "http://www.mcconnellweb.com"
@@ -359,7 +359,7 @@ URL = "s3://yahyagulshan.com/?region=us-east-1" #your bucket here
     # URL of the LOGO
     logo = ""
     # title name
-    name = "Luke McConnell"
+    name = "Yahya Gulshan"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
