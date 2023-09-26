@@ -101,13 +101,13 @@ URL = "s3://yahyagulshan.com/?region=us-east-1" #your bucket here
     # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
     title = "Yahya Gulshan"
     # subtitle shown in home page
-    subtitle = "Data Scientist, Data Engineer, Cloud Data Architect"
+    subtitle = "DevOps Engineer"
     # whether to use typeit animation for subtitle
     typeit = true
     # whether to show social links
     social = true
     # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
-    disclaimer = "<div>With a goal of solving modern business problems using data-driven decision making, I am currently the Data Architect at Tri Star Energy. I lead a team of data professionals who develop the company's analytical strategy with using modern tools, techniques, and algorithms.</div>"
+    disclaimer = "<div>I am a Devops Engineer with strive for excellence in automating and streamlining processes to enhance software development and deployment. I encourage continuous collaboration and vigilance to ensure a robust and secure environment.</div>"
     # Home page posts
   [params.home.posts]
     enable = false
