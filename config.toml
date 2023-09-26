@@ -250,8 +250,8 @@ URL = "s3://yahyagulshan.com/?region=us-east-1" #your bucket here
   
 # Social config about the author
 [params.social]
-  GitHub = "lmcconnell1665"
-  Linkedin = "lukemichaelmcconnell"
+  GitHub = "yahyagulshan"
+  Linkedin = "yahya-gulshan-620257b2"
   Twitter = ""
   Instagram = ""
   Facebook = ""
@@ -260,7 +260,7 @@ URL = "s3://yahyagulshan.com/?region=us-east-1" #your bucket here
   Gitlab = ""
   Youtubelegacy = ""
   Youtubecustom = ""
-  Youtubechannel = "UC17tLtChqC5mpHAKVCNH_Og"
+  Youtubechannel = ""
   Tumblr = ""
   Quora = ""
   Keybase = ""
@@ -312,7 +312,7 @@ URL = "s3://yahyagulshan.com/?region=us-east-1" #your bucket here
   XMPP = ""
   Matrix = ""
   Bilibili = ""
-  Email = "luke.m.mcconnell@gmail.com"
+  Email = "m.yahya.gulshan@gmail.com"
   RSS = false # LoveIt NEW | 0.2.0
   
 # Search config
