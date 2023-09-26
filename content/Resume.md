@@ -8,13 +8,7 @@ draft: false
 [Click here to download my full resume.](/img/resume.pdf)
 
 ***
-**Education**
 
-*Haslam College of Business, University of Tennessee*
-
-* Master of Science in Business Analytics (2019-2020)
-* Bachelor of Science in Business Analytics (2015-2019)
-* Graduate Teaching Assistant – Data Mining & Regression Modeling
 
 ***
 **Skills:**
