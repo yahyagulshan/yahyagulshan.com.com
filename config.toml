@@ -62,14 +62,14 @@ URL = "s3://yahyagulshan.com/?region=us-east-1" #your bucket here
     url = "https://github.com/yahyagulshan"
     title = "Portfolio"
     weight = 3
-  [[menu.main]]
-    identifier = "posts"
-    pre = ""
-    post = ""
-    name = "Posts"
-    url = "/posts/"
-    title = "Posts"
-    weight = 4
+  #[[menu.main]]
+  #  identifier = "posts"
+  #  pre = ""
+  #  post = ""
+  #  name = "Posts"
+  #  url = "/posts/"
+  #  title = "Posts"
+  #  weight = 4
   # [[menu.main]]
   #   identifier = "tags"
   #   pre = ""
