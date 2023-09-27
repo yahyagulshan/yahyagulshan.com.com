@@ -51,7 +51,7 @@ URL = "s3://yahyagulshan.com/?region=us-east-1" #your bucket here
     pre = ""
     post = ""
     name = "Resume"
-    url = "https://yahyagulshan.com/resume/"
+    url = "/resume/"
     title = "Resume"
     weight = 2
   [[menu.main]]
