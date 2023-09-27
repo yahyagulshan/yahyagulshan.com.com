@@ -1,3 +1,20 @@
+---
+title: "Increase Quotas is AWS"
+date: 2021-02-27T04:06:22Z
+author:
+authorLink:
+description:
+tags:
+- Azure
+- Analysis Services
+- Automation
+categories:
+- Tutorial
+draft: false
+hiddenFromHomePage: true
+---
+
+
 For increase quotes open AWS console.
 Go to service quataas
 https://us-east-1.console.aws.amazon.com/servicequotas/home?region=us-east-1#
