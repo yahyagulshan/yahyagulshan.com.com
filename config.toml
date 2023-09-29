@@ -86,6 +86,14 @@ URL = "s3://yahyagulshan.com/?region=us-east-1" #your bucket here
      url = "/categories/"
      title = "Categories"
      weight = 6
+   [[menu.main]]
+     identifier = "pictures"
+     pre = ""
+     post = ""
+     name = "Pictures"
+     url = "/pictures/"
+     title = "Pictures"
+     weight = 7  
 
 # Home page config
 [params.home]
