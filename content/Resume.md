@@ -8,7 +8,17 @@ draft: false
 [Click here to download my full resume.](/img/resume.pdf)
 
 ***
-
+***ABOUT ME:**
+Systems Engineer, Network Engineer, Database Administrator Team Manager
+with 10 years of experience in Unix and Linux Systems and 8 years of
+experience in Networking (Cisco routers); accustomed to medium to large
+server farms, specializing in security, high availability and application
+redundancy, to achieve the highest possible uptime. Expert in Software
+Linux server administration
+lifecycle applying DevOps Cultural methodologies to all levels of
+CentOS
+Engineering.
+***
 
 ***
 **Skills:**
