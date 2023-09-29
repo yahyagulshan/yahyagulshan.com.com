@@ -16,8 +16,8 @@ hiddenFromHomePage: true
 
 
 For increase quotes open AWS console.
-Go to service quataas
-https://us-east-1.console.aws.amazon.com/servicequotas/home?region=us-east-1#
+[Go to service quataas]
+(https://us-east-1.console.aws.amazon.com/servicequotas/home?region=us-east-1#)
 Choose aws services
 Here search service which service quota we need to increase
 After choose service check its default quota and Adjustable value.
