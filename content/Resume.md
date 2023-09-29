@@ -12,7 +12,9 @@ draft: false
 
 ***
 **Skills:**
-SQL, Python, Bash, Zash PowerShell, Git, Azure DevOps, AWS DevOps, Docker, 
+SQL, MYSQL, Bash, Zash PowerShell, Git, Azure DevOps, AWS DevOps, Docker, Elastic Cloud Computing (EC2), Availability Zones (AZs),  Simple Storage Service (S3), Identity and Access Management (IAM), Elastic Block Storage (EBS), Elastic Load Balancing (ELB), Relational Database Service (RDS), Database Migration Service,
+VPC, Private/Public Subnets, Network Access Control List (NACLs), Routing Tables, Security Groups, AWS Internet Gateway (IGW), AWS VPN Client
+
 
 ***
 **Certifications:**
