@@ -28,7 +28,7 @@ URL = "s3://yahyagulshan.com/?region=us-east-1" #your bucket here
   # site description
   description = "Yahya Gulshan"
   # site keywords
-  keywords = ["Luke", "McConnell"]
+  keywords = ["Yahya", "Gulshan"]
   # site default theme ("light", "dark", "auto")
   defaultTheme = "auto"
     # LoveIt NEW | 0.2.0 date format
