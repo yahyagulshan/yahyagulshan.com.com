@@ -43,7 +43,7 @@ Microsoft releases new updates for Power BI monthly, so be sure to re-download o
 - [Lab solution (pbix)](https://s3.amazonaws.com/mcconnell.publicfiles/iia-chattanooga-power-bi-training-april-2021/Lab+1+Solution.pbix)
 
 {{< admonition type=tip title="Lab data files" open=true >}}
-
+1q2
 Make sure to follow the lab manual instructions for downloading and storing the data files required for these labs.
 
 {{< /admonition >}}

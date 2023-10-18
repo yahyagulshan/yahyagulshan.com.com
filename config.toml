@@ -70,30 +70,30 @@ URL = "s3://yahyagulshan.com/?region=us-east-1" #your bucket here
     url = "/posts/"
     title = "Posts"
     weight = 4
-   [[menu.main]]
-     identifier = "tags"
-     pre = ""
-     post = ""
-     name = "Tags"
-     url = "/tags/"
-     title = "Tags"
-     weight = 5
-   [[menu.main]]
-     identifier = "categories"
-     pre = ""
-     post = ""
-     name = "Categories"
-     url = "/categories/"
-     title = "Categories"
-     weight = 6
-   [[menu.main]]
-     identifier = "pictures"
-     pre = ""
-     post = ""
-     name = "Pictures"
-     url = "/pictures/"
-     title = "Pictures"
-     weight = 7  
+  # [[menu.main]]
+  #  identifier = "tags"
+  #  pre = ""
+  #   post = ""
+  #   name = "Tags"
+  #   url = "/tags/"
+  #   title = "Tags"
+  #   weight = 5
+  # [[menu.main]]
+  #   identifier = "categories"
+  #   pre = ""
+  #   post = ""
+  #   name = "Categories"
+  #   url = "/categories/"
+  #   title = "Categories"
+  #   weight = 6
+  # [[menu.main]]
+  #   identifier = "pictures"
+  #   pre = ""
+  #   post = ""
+  #   name = "Pictures"
+  #   url = "/pictures/"
+  #   title = "Pictures"
+  #   weight = 7  
 
 # Home page config
 [params.home]

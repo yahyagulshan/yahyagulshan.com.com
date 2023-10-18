@@ -10,67 +10,25 @@ draft: false
 ***
 **ABOUT ME:**
 
-Systems Engineer, Network Engineer, Database Administrator Team Manager
-with 10 years of experience in Unix and Linux Systems and 8 years of
-experience in Networking (Cisco routers); accustomed to medium to large
-server farms, specializing in security, high availability and application
-redundancy, to achieve the highest possible uptime. Expert in Software
-Linux server administration
-lifecycle applying DevOps Cultural methodologies to all levels of
-CentOS
-Engineering.
+Dedicated and highly skilled DevOps Engineer with 8 years of hands-on experience in designing, implementing, and maintaining cloud-based infrastructure. Adept at utilizing AWS, Azure, and GCP to automate deployment, scale applications, and improve system performance. Proven track record of efficiently managing Linux-based systems. Seeking a challenging DevOps position to contribute my expertise to innovative projects.
 ***
 
 ***
 **Technical Skills Summary:**
 
-**DevOps:**
+- Cloud Platforms: AWS, Azure, Google Cloud Platform (GCP)
+- Infrastructure as Code: Terraform, AWS CloudFormation
+- Configuration Management: Ansible, Puppet, Chef
+- Continuous Integration/Continuous Deployment (CI/CD): Jenkins, AWS Code PipeLine, Github Action
+- Containerization: Docker, Kubernetes
+- Version Control: Git, GitLab, GitHub, Bitbucket
+- Monitoring and Logging: Nagios, New Relic, CloudWatch, ELK Stack
+- Scripting and Automation: Bash, Python, Ruby
+- Operating Systems: Linux (Ubuntu, CentOS, RHEL)
+- Database Management: MySQL, PostgreSQL, MongoDB, MsSQL
+- Security: Firewalls, SSL/TLS, Intrusion Detection Systems (IDS)
 
-Code Versioning (cvs, svn, git)
-Monitoring (nagios, saint, snort, munin)
-Cloud computing (EC2, OpenStack, Azure,
-Rackspace)
-Virtualization (vmware, virtualbox, xen, kvm)
-Agile (deployment, scrum, agile)
-Automation (puppet, chef, capistrano)
-Geo Balancing and CDN
 
-**OS**
-
-Linux (Ubuntu, Debian, Redhat, Centos)
-BSD (OpenBSD, FreeBSD, NetBSD, OS X)
-Unix (Solaris, HPUX)
-Windows (MS Windows 7,8, MS server
-2008,2012 )
-
-**Internet Services**
-
-HTTP (Apache, Tomcat, IIS, nginx,
-lighttpd)
-FTP (ncftpd, vsftpd)
-NTP (unix ntpd)
-SSH (sshfi, openssh)
-Proxy (squid, microsoft proxy server,
-varnish)
-Firewalls (Nat, ipfilter, ipchains, ipfw, fw
-1, ifw)
-SMTP (sendmail, postfix, qmail, exim)
-Mail (cyrus, courier, qpopper)
-
-**Databases**
-
-Oracle
-MySQL
-PostgreSQL
-Hadoop
-Redis
-
-**Programming Languages**
-
-shell (bash, csh, ksh)
-Python
-PHP (3 to 5)
-SQL (MySQL, Postgres PSQL)
 
 
 ***
