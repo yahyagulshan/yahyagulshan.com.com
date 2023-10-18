@@ -98,9 +98,13 @@ Select your user-locked profile.
 ## Step 9: Download the Configuration File
 
 Download the VPN configuration file to your local system.
-After downloading, rename the file to `'user1.ovpn.'`
+
 
 {{< image src="/img/openvpn/chooseyoursystem.png" caption=" Choose Your System ">}}
+
+
+After downloading, rename the file to `'user1.ovpn.'`
+
 
 ***
 
@@ -120,6 +124,6 @@ Provide your username and password when prompted.
 Your IP address should now be changed and static, indicating a successful VPN connection.
 By following these steps, you can set up OpenVPN on an AWS EC2 instance and ensure secure and private internet access.
 
-##########################
-#- **Azure DevOps:** [Setting up branch policy settings](https://learn.microsoft.com/en-us/azure/devops/repos/git/branch-policies?view=azure-devops&#tabs=browser)
-#- **GitHub:** [Setting up status check policy](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/#defining-the-mergeability-of-pull-requests)
+<!-- ########################## -->
+<!-- #- **Azure DevOps:** [Setting up branch policy settings](https://learn.microsoft.com/en-us/azure/devops/repos/git/branch-policies?view=azure-devops&#tabs=browser)
+#- **GitHub:** [Setting up status check policy](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/#defining-the-mergeability-of-pull-requests) -->
