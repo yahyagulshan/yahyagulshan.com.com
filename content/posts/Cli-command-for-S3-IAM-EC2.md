@@ -13,7 +13,7 @@ categories:
 draft: false
 hiddenFromHomePage: true
 ---
-#### 
+ 
 
 {{< admonition type=tip title="(command for create bucket on s3)" open=true >}}
 
@@ -23,7 +23,7 @@ hiddenFromHomePage: true
 
                 
 
-### 
+
 
 {{< admonition type=tip title="(command for copy file from source to S3)" open=true >}}
 
@@ -32,7 +32,7 @@ hiddenFromHomePage: true
 {{< /admonition >}}
     
 
-### 
+
 
 {{< admonition type=tip title="(command to delete the object from bucket )" open=true >}}
 
@@ -41,7 +41,7 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
+
 
 {{< admonition type=tip title="(command to dowload file from s3 )" open=true >}}
 
@@ -50,7 +50,7 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
+
 
 {{< admonition type=tip title="(command to show regions in aws in text form )" open=true >}}
 
@@ -59,7 +59,7 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
+
 
 {{< admonition type=tip title="(command to show regions in aws in table form )" open=true >}}
 
@@ -68,7 +68,7 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
+
 
 {{< admonition type=tip title="(command to create group  )" open=true >}}
 
@@ -77,7 +77,7 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
+
 
 {{< admonition type=tip title="(command to create user )" open=true >}}
 
@@ -85,7 +85,7 @@ hiddenFromHomePage: true
 
 {{< /admonition >}}
 
-### 
+
 
 {{< admonition type=tip title="(command to delete user)" open=true >}}
 
@@ -94,7 +94,6 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
 
 {{< admonition type=tip title="(command to show all policies in iam )" open=true >}}
 
@@ -103,7 +102,7 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
+
 
 {{< admonition type=tip title="(command to attach policy on group )" open=true >}}
 
@@ -112,7 +111,7 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
+
 
 {{< admonition type=tip title="(command to attach user with group)" open=true >}}
 
@@ -121,7 +120,7 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
+
 
 {{< admonition type=tip title="(to create access key for user)" open=true >}}
 
@@ -130,7 +129,6 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
 
 {{< admonition type=tip title="(to show access key and secret access key)" open=true >}}
 
@@ -139,7 +137,7 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
+
 
 {{< admonition type=tip title="(to create a key pair for ec2 instance )" open=true >}}
 
@@ -148,7 +146,7 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
+
 
 {{< admonition type=tip title="(command to create a security group)" open=true >}}
 
@@ -157,7 +155,7 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
+
 
 {{< admonition type=tip title="(command to create network acl)" open=true >}}
 
@@ -166,7 +164,7 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
+
 
 {{< admonition type=tip title="(command to setting the security group)" open=true >}}
 
@@ -175,7 +173,7 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
+
 
 {{< admonition type=tip title="(to create a new instance command)" open=true >}}
 
@@ -184,7 +182,7 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
+
 
 {{< admonition type=tip title="(command will show you detail of instances which are on aws region)" open=true >}}
 
@@ -193,7 +191,7 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
+ 
 
 {{< admonition type=tip title="(describe region with helpful patren to show)" open=true >}}
 
@@ -202,7 +200,6 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
 
 {{< admonition type=tip title="(to show instances id running )" open=true >}}
 
@@ -211,7 +208,7 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
+
 
 {{< admonition type=tip title="(to show instances id )" open=true >}}
 
@@ -220,7 +217,7 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
+
 
 {{< admonition type=tip title="(command to stop the instance)" open=true >}}
 
@@ -229,7 +226,7 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
+
 
 {{< admonition type=tip title="(command to start the instance)" open=true >}}
 
@@ -238,7 +235,7 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
+
 
 {{< admonition type=tip title="(command to terminate the instance)" open=true >}}
 
@@ -247,7 +244,7 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
+ 
 
 {{< admonition type=tip title="(command to create a vpc)" open=true >}}
 
@@ -256,7 +253,7 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
+
 
 {{< admonition type=tip title="(show vpc id)" open=true >}}
 
@@ -265,7 +262,7 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-### 
+ 
 
 {{< admonition type=tip title="(command to create the subnet)" open=true >}}
 
