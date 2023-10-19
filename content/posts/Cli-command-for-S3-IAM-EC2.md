@@ -14,7 +14,14 @@ draft: false
 hiddenFromHomePage: true
 ---
 #### (command for create bucket on s3)
-`aws s3 mb s3://Testbucket/`                
+
+{{< admonition type=tip title="command for create bucket on s3" open=true >}}
+
+`aws s3 mb s3://Testbucket/`
+
+{{< /admonition >}}
+
+                
 
 ### (command for copy file from source to S3)
 `aws s3 cp jpg.jpg s3://Testbucket/ `    
