@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "DAX Dictionary - Example Measures/Columns"
 date: 2021-02-07T04:06:22Z
 author:
@@ -352,4 +352,4 @@ CALCULATE (
     REMOVEFILTERS ( 'Product' )
 )
 ```
-{{< /admonition >}}
+{{< /admonition >}} -->

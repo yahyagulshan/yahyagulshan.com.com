@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Storing Stock API Data in DynamoDB"
 date: 2020-06-20T04:06:22Z
 author:
@@ -66,4 +66,4 @@ Once you see `DONE deleting` the stocks historical information has been removed 
 ***
 ## Demo
 
-{{< youtube tU_yvEbdsPE >}}
+{{< youtube tU_yvEbdsPE >}} -->

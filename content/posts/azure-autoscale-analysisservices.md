@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Auto-Scaling an Azure Analysis Services model"
 date: 2021-02-27T04:06:22Z
 author:
@@ -84,4 +84,4 @@ param(
 Create an automation schedule to run this script at a regular frequency (I'd recommend once every hour). Automation runbooks are very cheap (first 500 minutes of runtime a month are free, then $0.002 per minute of runtime). This script will run at the set interval, check to see what the status of the server is and adjust it if it doesn't match the schedule for that time period. If there is not a set schedule for a time period, the server will be paused.
 
 ### Note:
-I really like this because I can make manual adjustments to the tier of the model myself (if I needed more processing power for an unscheduled deployment, for example), and the script will come at the top of the next hour and correct the pricing tier back to the schedule. However, sometimes this can be inconvenient so you will need to temporarily disable the schedule.
+I really like this because I can make manual adjustments to the tier of the model myself (if I needed more processing power for an unscheduled deployment, for example), and the script will come at the top of the next hour and correct the pricing tier back to the schedule. However, sometimes this can be inconvenient so you will need to temporarily disable the schedule. -->

@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Installing R and R Studio"
 date: 2020-04-20T04:06:22Z
 author:
@@ -81,4 +81,4 @@ updateR()
 &nbsp;
 
 Next, to verify you are running the latest version of R Studio simply click “Check for Updates” which can be found under the Help menu in R Studio.
-If you are not running the most recent version, you will be prompted through the steps to update.
+If you are not running the most recent version, you will be prompted through the steps to update. -->

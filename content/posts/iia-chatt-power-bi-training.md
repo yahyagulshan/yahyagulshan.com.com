@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "IIA Chattanooga Chapter - Power BI Training"
 date: 2021-04-17T04:06:22Z
 author:
@@ -76,4 +76,4 @@ This demo file contains lots of examples of new Power BI features. Use the intro
 
 - [Completed demo dashboard (pbix)](https://s3.amazonaws.com/mcconnell.publicfiles/iia-chattanooga-power-bi-training-april-2021/DIAD+Final+Report.pbix)
 - [Microsoft Power BI examples](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets)
-- [Guy in a Cube YouTube Channel](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
+- [Guy in a Cube YouTube Channel](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w) -->

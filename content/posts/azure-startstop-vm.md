@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Automatically Starting/Stopping a VM with Azure Data Factory"
 date: 2020-07-19T04:06:22Z
 author:
@@ -73,4 +73,4 @@ Repeat the same process for the stop step at the end of your pipeline.
 Confirm that your virtual machines are stopped and press `Debug` from within Data Factory to test the runbook.
 You can follow along with the output of the runbooks from within the automation accounts job window.
 Once the job has successfully completed and the VM has started you will also see `Succeeded` from within Data Factory.
-The pipeline is now ready to be published.
+The pipeline is now ready to be published. -->

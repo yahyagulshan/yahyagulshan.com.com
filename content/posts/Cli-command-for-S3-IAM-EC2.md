@@ -271,4 +271,4 @@ hiddenFromHomePage: true
 {{< /admonition >}}
 
 
-[Let me know.](yahya.gulshan@gmail.com)
+[Let me know.](mailto:yahya.gulshan@gmail.com)

@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Implementing RPA at Scale using HEAT Methods"
 date: 2022-11-05T04:06:22Z
 author:
@@ -85,4 +85,4 @@ If you come from a Microsoft shop like me, there are a variety of tools availabl
 
 ## Conclusion
 
-I am just beginning to scratch the surface in terms of enterprise RPA strategy. What other tools and techniques have you seen work at scale? [Let me know.](mailto:luke.m.mcconnell@gmail.com)
+I am just beginning to scratch the surface in terms of enterprise RPA strategy. What other tools and techniques have you seen work at scale? [Let me know.](mailto:luke.m.mcconnell@gmail.com) -->

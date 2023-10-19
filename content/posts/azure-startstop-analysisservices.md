@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Automatically Pausing/Resuming an Azure Analysis Services model"
 date: 2021-02-21T04:06:22Z
 author:
@@ -51,4 +51,4 @@ Create runbooks using the script in [this repo](https://github.com/lmcconnell166
 
 ***
 ## Step 4: Link to a schedule
-Create an automation schedule to start and stop the model at the needed time intervals. You can also create a webhook to connect to Data Factory as a trigger (mentioned above).
+Create an automation schedule to start and stop the model at the needed time intervals. You can also create a webhook to connect to Data Factory as a trigger (mentioned above). -->

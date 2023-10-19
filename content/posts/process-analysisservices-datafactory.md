@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Processing Analysis Services Model from Azure Data Factory"
 date: 2020-10-21T04:06:22Z
 author:
@@ -35,4 +35,4 @@ The author of the pipeline has a great [walk thru of the setup process](https://
 {{< /admonition >}}
 
 ***
-
+ -->

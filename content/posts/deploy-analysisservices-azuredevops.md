@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Deploy an Azure Analysis Services model from source control using Azure DevOps pipelines"
 date: 2021-03-01T04:06:22Z
 author:
@@ -48,4 +48,4 @@ I found [this PowerShell script](https://github.com/lmcconnell1665/AzureDevOpsPi
 {{< image src="/img/deploy-analysisservices-azuredevops/Example-firewall-script.png" caption="Typical configuration of PowerShell script arguments.">}}
 
 ## Step 5: Test the process end to end
-Make a change to the tabular model in your source control repo and push it to the `master` branch. I usually add a new measure to the model, something like: `Test := 150`. When you push this change, confirms it builds and releases successfully and that you are able to see the change when connected to your model using Power BI or Excel.
+Make a change to the tabular model in your source control repo and push it to the `master` branch. I usually add a new measure to the model, something like: `Test := 150`. When you push this change, confirms it builds and releases successfully and that you are able to see the change when connected to your model using Power BI or Excel. -->

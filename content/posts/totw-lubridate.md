@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Lubridate Package"
 date: 2020-05-04T04:06:22Z
 author:
@@ -64,4 +64,4 @@ as.numeric(date(today_parsed) - date(bday_parsed)) / 365
 
 [Lubridate Overview and Installation Instructions](https://lubridate.tidyverse.org)
 
-[Lubridate Cheatsheet](https://rawgit.com/rstudio/cheatsheets/master/lubridate.pdf)
+[Lubridate Cheatsheet](https://rawgit.com/rstudio/cheatsheets/master/lubridate.pdf) -->
