@@ -17,7 +17,9 @@ hiddenFromHomePage: true
 ***
 ## Introduction
 
-Website security is paramount in the digital age. One way to protect your website from potential attacks is by closely monitoring your AWS Elastic Beanstalk environment and responding swiftly to any suspicious activity. In this document, we outline the steps to detect and mitigate such threats.
+Website security is paramount in the digital age. One way to protect your website from potential attacks is by closely monitoring your AWS Elastic Beanstalk 
+
+environment and responding swiftly to any suspicious activity. In this document, we outline the steps to detect and mitigate such threats.
 
 ***
 ## Step 1: Monitoring Access Logs
@@ -26,27 +28,40 @@ Website security is paramount in the digital age. One way to protect your websit
 To detect potential threats to your website, monitor access logs on AWS Elastic Beanstalk. These logs can reveal suspicious activity, such as unauthorized login attempts or unknown scripts.
 
 **Action:** Go to the AWS Elastic Beanstalk dashboard and access the logs section.
+
 **Procedure:**
 
-*Look for access logs that contain unfamiliar requests, such as "GET /login HTTP/1.1" with a 200 response code.
-*Identify IP addresses associated with these requests.
+- Look for access logs that contain unfamiliar requests, such as "GET /login HTTP/1.1" with a 200 response code.
+
+- Identify IP addresses associated with these requests.
 
 ## Step 2: Blocking Suspicious IPs
 
-After identifying suspicious IP addresses, it's crucial to block them using Virtual Private Cloud (VPC) Access Control Lists (ACLs) to enhance your website's security.
+After identifying suspicious IP addresses, it's crucial to block them using Virtual Private Cloud (VPC) Access Control Lists (ACLs) to enhance your 
+
+website's security.
 
 **Action:** Open your VPC and create a rule to block specific IP addresses.
+
 **Procedure:**
 
-*Access your AWS Management Console.
-*Navigate to the Virtual Private Cloud (VPC) section.
-*Select the VPC associated with your Elastic Beanstalk environment.
-*In the VPC dashboard, click on "Network ACLs."
-*Add a new inbound rule:
-    *Define the rule by specifying the IP address you want to block.
-    *Set the rule's action to "Deny."
-    *Choose the appropriate port or service.
-*Save the rule.
+- Access your AWS Management Console.
+
+- Navigate to the Virtual Private Cloud (VPC) section.
+
+- Select the VPC associated with your Elastic Beanstalk environment.
+
+- In the VPC dashboard, click on "Network ACLs."
+
+- Add a new inbound rule:
+
+    - Define the rule by specifying the IP address you want to block.
+
+    - Set the rule's action to "Deny."
+
+    - Choose the appropriate port or service.
+
+- Save the rule.
 
 By following these steps, you can effectively safeguard your website from potential attacks by blocking suspicious IPs through VPC ACLs.
 
