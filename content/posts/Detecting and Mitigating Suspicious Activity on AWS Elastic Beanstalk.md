@@ -1,13 +1,13 @@
-<!-- ---
-title: "DAX Dictionary - Example Measures/Columns"
+---
+title: "Detecting and Mitigating Suspicious Activity on AWS Elastic Beanstalk"
 date: 2021-02-07T04:06:22Z
 author:
 authorLink:
 description:
 tags:
-- DAX
-- Analysis Services
-- Power BI
+- Detecting
+- Suspicious Activity
+- Elastic Beanstalk
 categories:
 - References
 draft: false
@@ -17,32 +17,44 @@ hiddenFromHomePage: true
 ***
 ## Introduction
 
-I found myself referencing these DAX measures often to repurpose for new projects. Hopefully some of them can be useful for you as well!
-
-[GitHub Issue: Integrate with DAXformatter.com](https://github.com/lmcconnell1665/McConnellWeb/issues/2)
+Website security is paramount in the digital age. One way to protect your website from potential attacks is by closely monitoring your AWS Elastic Beanstalk environment and responding swiftly to any suspicious activity. In this document, we outline the steps to detect and mitigate such threats.
 
 ***
-## SUMX()
-#### Takes a table as the first argument, and an expression you want to calculate row by row and then take the sun of as the second argument
-
-{{< admonition type=example title="SUMX examples" open=true >}}
-**Example 1:** Calculate Sales, which is the `Quantity` times the `Price` for the line items
-```
-Sales Amount =
-SUMX ( Sales, Sales[Quantity] * Sales[Net Price] )
-```
-
-**Example 2:** Calculate the average sales per customer, for customers with a type = "Company"
-```
-Amount/Company = 
-CALCULATE (
-    AVERAGEX ( Customer, Sales[Sales Amount] ),
-    Customer[Customer Type] = "Company"
-)
-```
-{{< /admonition >}}
-
+## Step 1: Monitoring Access Logs
 ***
+
+To detect potential threats to your website, monitor access logs on AWS Elastic Beanstalk. These logs can reveal suspicious activity, such as unauthorized login attempts or unknown scripts.
+
+**Action:** Go to the AWS Elastic Beanstalk dashboard and access the logs section.
+**Procedure:**
+
+*Look for access logs that contain unfamiliar requests, such as "GET /login HTTP/1.1" with a 200 response code.
+*Identify IP addresses associated with these requests.
+
+## Step 2: Blocking Suspicious IPs
+
+After identifying suspicious IP addresses, it's crucial to block them using Virtual Private Cloud (VPC) Access Control Lists (ACLs) to enhance your website's security.
+
+**Action:** Open your VPC and create a rule to block specific IP addresses.
+**Procedure:**
+
+*Access your AWS Management Console.
+*Navigate to the Virtual Private Cloud (VPC) section.
+*Select the VPC associated with your Elastic Beanstalk environment.
+*In the VPC dashboard, click on "Network ACLs."
+*Add a new inbound rule:
+    *Define the rule by specifying the IP address you want to block.
+    *Set the rule's action to "Deny."
+    *Choose the appropriate port or service.
+*Save the rule.
+
+By following these steps, you can effectively safeguard your website from potential attacks by blocking suspicious IPs through VPC ACLs.
+
+By implementing these security measures, you can enhance the protection of your AWS Elastic Beanstalk-hosted website and respond promptly to any potential threats.
+
+**Note:** It's essential to continually monitor your logs and regularly update your security rules to adapt to evolving threats.
+
+<!-- ***
 ## AVERAGEX()
 #### Takes a table as the first argument, and an expression you want to calculate row by row and then take the average of as the second argument
 
