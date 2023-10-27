@@ -27,7 +27,7 @@ Next, provide the group with permissions for read-only access.
 
 ## 3. **Utilize AWS-Managed Policy**
 
-AWS offers a range of AWS-managed policies, which are pre-configured for common use cases. In this scenario, we recommend using the "[ReadonlyAccess.](https://us-east-1.console.aws.amazon.com/iam/home#/policies/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FReadOnlyAccess/)" policy. It already contains the necessary permissions that match your requirements.
+AWS offers a range of AWS-managed policies, which are pre-configured for common use cases. In this scenario, we recommend using the "[ReadonlyAccess.](https://docs.aws.amazon.com/aws-managed-policy/latest/reference/ReadOnlyAccess.html/)" policy. It already contains the necessary permissions that match your requirements.
 
 
 
