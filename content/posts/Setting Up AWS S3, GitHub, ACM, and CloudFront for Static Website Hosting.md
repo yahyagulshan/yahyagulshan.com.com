@@ -23,7 +23,7 @@ Set the bucket as a static website page:
 Open the S3 bucket and go to "Properties."
 In the last option, enable static website hosting.
 
-{{< image src="/img/setting-up-aws-s3-github/S3-bucket.png" caption=" Open URL ">}}
+<!-- {{< image src="/img/setting-up-aws-s3-github/S3-bucket.png" caption=" Open URL ">}} -->
 
 ## 2. Configure Bucket Policy for Public Access
 * In the S3 bucket, navigate to "Permissions."
@@ -39,12 +39,12 @@ In the last option, enable static website hosting.
             "Effect": "Allow",
             "Principal": "*",
             "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::yahyagulshan.com/*"
+            "Resource": "arn:aws:s3:::abc.com/*"
         }
     ]
 }
 
-{{< image src="/img/setting-up-aws-s3-github/policy.png" caption=" Open URL ">}}
+<!-- {{< image src="/img/setting-up-aws-s3-github/policy.png" caption=" Open URL ">}} -->
 
 ## 3. Configure GitHub Repository
 
@@ -53,7 +53,7 @@ Change the "config.toml" file:
 
 * Update the S3 URL and static website URL at line #8 and line #23.
 
-{{< image src="/img/setting-up-aws-s3-github/config-toml.png" caption=" Open URL ">}}
+<!-- {{< image src="/img/setting-up-aws-s3-github/config-toml.png" caption=" Open URL ">}} -->
 
 ## 4. Add Secrets to GitHub Repository
 
@@ -63,7 +63,7 @@ Change the "config.toml" file:
 * Secret access key
 
 
-{{< image src="/img/setting-up-aws-s3-github/secret.png" caption=" Open URL ">}}
+<!-- {{< image src="/img/setting-up-aws-s3-github/secret.png" caption=" Open URL ">}} -->
 
 ## 5. Run the GitHub Actions Pipeline
 
@@ -72,7 +72,7 @@ Change the "config.toml" file:
 ## 6. Create AWS ACM SSL Certificate
 
 * Open AWS ACM page and click on "Request a Public Certificate."
-* Provide the domain name (e.g., "yahyagulshan.com") and select DNS validation.
+* Provide the domain name (e.g., "abc.com") and select DNS validation.
 
 ## 7. Add values in Cloudflare 
 
@@ -85,7 +85,7 @@ Change the "config.toml" file:
 * Click on "Create Distribution" and wait for verification.
 
 
-{{< image src="/img/setting-up-aws-s3-github/create-distribution.png" caption=" Open URL ">}}
+<!-- {{< image src="/img/setting-up-aws-s3-github/create-distribution.png" caption=" Open URL ">}}
 
 {{< image src="/img/setting-up-aws-s3-github/default-cache.png" caption=" Open URL ">}}
 
@@ -95,7 +95,7 @@ Change the "config.toml" file:
 {{< image src="/img/setting-up-aws-s3-github/web-application-firewall.png" caption=" Open URL ">}}
 
 
-{{< image src="/img/setting-up-aws-s3-github/fire-wall-2.png" caption=" Open URL ">}}
+{{< image src="/img/setting-up-aws-s3-github/fire-wall-2.png" caption=" Open URL ">}} -->
 
 
 ## 9. Configure CloudFront Origin Domain
@@ -105,10 +105,10 @@ Change the "config.toml" file:
 * Save the changes.
 
 
-{{< image src="/img/setting-up-aws-s3-github/edit-origin.png" caption=" Open URL ">}}
+<!-- {{< image src="/img/setting-up-aws-s3-github/edit-origin.png" caption=" Open URL ">}}
 
 
-{{< image src="/img/setting-up-aws-s3-github/static-website.png" caption=" Open URL ">}}
+{{< image src="/img/setting-up-aws-s3-github/static-website.png" caption=" Open URL ">}} -->
 
 
 
