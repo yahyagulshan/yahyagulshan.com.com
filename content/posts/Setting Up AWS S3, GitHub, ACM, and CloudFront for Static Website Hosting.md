@@ -118,4 +118,5 @@ Change the "config.toml" file:
 * Create a CNAME record on Cloudflare or your domain registrar with the CloudFront URL as the value.
 * After populating the value, your website will display the CloudFront content.
 
-* Now, your static website is hosted on AWS S3, served through CloudFront, and secured with an ACM SSL certificate. The entire deployment process is    automated through GitHub Actions.
+* Now, your static website is hosted on AWS S3, served through CloudFront, and secured with an ACM SSL certificate. The entire deployment process is      automated through GitHub Actions.
+
