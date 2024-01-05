@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - master
+      # - staging
 
 jobs:
   # single job called "build and deploy"
