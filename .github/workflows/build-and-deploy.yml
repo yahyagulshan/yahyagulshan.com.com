@@ -4,7 +4,8 @@ name: Continuous Deployment
 on: 
   push:
     branches:
-      - master
+      # - master
+      - staging
 
 jobs:
   # single job called "build and deploy"
