@@ -129,7 +129,7 @@ The Jenkinsfile orchestrates the pipeline:
 
 The `deployment.yaml` file creates a Pod and Service in Kubernetes Minikube.
 
-# `account.yaml ` File Details: 
+* `account.yaml ` File Details: 
 
 * This file is used for creating a service account with the secret for the Kubernetes-plugin in Minikube.
 
