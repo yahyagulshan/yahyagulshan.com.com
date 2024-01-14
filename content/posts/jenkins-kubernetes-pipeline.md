@@ -15,7 +15,7 @@ draft: false
 hiddenFromHomePage: true
 ---
 
-## Jenkins Kubernetes Pipeline for Containerized PHP Web Application - A Step-by-Step Guide
+# Jenkins Kubernetes Pipeline for Containerized PHP Web Application - A Step-by-Step Guide
 
 * In this blog post, we'll walk through the process of setting up a Jenkins pipeline to containerize a PHP web application and deploy it to Kubernetes Minikube. Before we dive into the details, make sure you have the following prerequisites in place:
 
@@ -29,11 +29,11 @@ hiddenFromHomePage: true
      
 [for jenkins plugins](https://www.jenkins.io/doc/book/managing/plugins/)
 
-* 2- Installed Kubernetes minikube. [how to install](https://kubernetes.io/docs/setup/)
+2- Installed Kubernetes minikube. [how to install](https://kubernetes.io/docs/setup/)
 
-* 3- Installed Docker.[how to install](https://docs.docker.com/engine/install/)
+3- Installed Docker.[how to install](https://docs.docker.com/engine/install/)
 
-* 4- Make sure Jenkins has a connection with Kubernetes  [how to make connection](https://medium.com/@devayanthakur/minikube-configure-jenkins-kubernetes-plugin-25eb804d0dec)
+4- Make sure Jenkins has a connection with Kubernetes  [how to make connection](https://medium.com/@devayanthakur/minikube-configure-jenkins-kubernetes-plugin-25eb804d0dec)
 
 5- DockerHub Repository:
 Have a DockerHub repository ready to store your Docker images.
@@ -85,10 +85,10 @@ Have a DockerHub repository ready to store your Docker images.
  * this repo we have `Dockerfile` and `index.php` file. these files are for creating php web page.
 ![Screenshot from 2024-01-11 21-15-00](https://github.com/yahyagulshan/jenkins-kubernetes-pipeline/assets/59036269/fb7ab2cc-ca83-40a7-8e4b-af814cfc8937)
 
-## Important Note (To run the auto-trigger pipeline our Jenkins should be on a Public host like "EC2" )
+# Important Note (To run the auto-trigger pipeline our Jenkins should be on a Public host like "EC2" )
 * For auto trigger we need to create a webhook on the GitHub repo because the webhook needs to communicate over the public IP.
 
-### Steps for autotrigger pipeline
+# Steps for autotrigger pipeline
 * First we need to create the webhook on our GitHub repo for this go to setting > webhook > Add webhook 
 
 ---
@@ -119,17 +119,17 @@ The Jenkinsfile orchestrates the pipeline:
 * 2- Pushes the image to the DockerHub repository.
 * 3- Deploys the image to Kubernetes Minikube.
 
-### Note: Customize the Jenkinsfile
+# Note: Customize the Jenkinsfile
 
 * Change the DockerHub credentials in line #16.
 * Update the username in line #17.
 * Change the Kubernetes credentials in line #28.
 
-### Kubernetes Manifest File (deployment.yaml)
+# Kubernetes Manifest File (deployment.yaml)
 
 The `deployment.yaml` file creates a Pod and Service in Kubernetes Minikube.
 
-## `account.yaml ` File Details: 
+# `account.yaml ` File Details: 
 
 * This file is used for creating a service account with the secret for the Kubernetes-plugin in Minikube.
 
