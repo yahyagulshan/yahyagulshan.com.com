@@ -23,9 +23,11 @@ hiddenFromHomePage: true
 
 # Prerequisites
 
-1- Installed Jenkins on the local system or any VM. [how to install](https://www.jenkins.io/doc/book/installing/)
-     [for add credentials](https://www.jenkins.io/doc/book/using/using-credentials/#:~:text=From%20the%20Jenkins%20home%20page,Add%20Credentials%20on%20the%20left.) 
-     [for jenkins plugins](https://www.jenkins.io/doc/book/managing/plugins/)
+1- Installed Jenkins on the local system or any VM. [how to install Jenkins](https://www.jenkins.io/doc/book/installing/)
+     
+[for add credentials](https://www.jenkins.io/doc/book/using/using-credentials/#:~:text=From%20the%20Jenkins%20home%20page,Add%20Credentials%20on%20the%20left.) 
+     
+[for jenkins plugins](https://www.jenkins.io/doc/book/managing/plugins/)
 
 * 2- Installed Kubernetes minikube. [how to install](https://kubernetes.io/docs/setup/)
 
@@ -132,3 +134,4 @@ The `deployment.yaml` file creates a Pod and Service in Kubernetes Minikube.
 * This file is used for creating a service account with the secret for the Kubernetes-plugin in Minikube.
 
 * Feel free to adapt these files and configurations based on your project requirements. Happy coding! 🚀
+
