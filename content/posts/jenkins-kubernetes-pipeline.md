@@ -23,17 +23,15 @@ hiddenFromHomePage: true
 
 # Prerequisites
 
-1- Install Jenkins:
-Follow the official Jenkins installation guide. Additionally, you may need to install Jenkins plugins; refer to the plugin management documentation.
+1- Installed Jenkins on the local system or any VM. [how to install](https://www.jenkins.io/doc/book/installing/)
+     [for add credentials](https://www.jenkins.io/doc/book/using/using-credentials/#:~:text=From%20the%20Jenkins%20home%20page,Add%20Credentials%20on%20the%20left.) 
+     [for jenkins plugins](https://www.jenkins.io/doc/book/managing/plugins/)
 
-2- Install Kubernetes Minikube:
-Set up Minikube by following the Kubernetes installation guide.
+* 2- Installed Kubernetes minikube. [how to install](https://kubernetes.io/docs/setup/)
 
-3- Install Docker:
-Make sure Docker is installed on your system. You can find installation instructions here.
+* 3- Installed Docker.[how to install](https://docs.docker.com/engine/install/)
 
-4- Jenkins-Kubernetes Connection:
-Ensure Jenkins is connected to Kubernetes. Refer to this guide for instructions.
+* 4- Make sure Jenkins has a connection with Kubernetes  [how to make connection](https://medium.com/@devayanthakur/minikube-configure-jenkins-kubernetes-plugin-25eb804d0dec)
 
 5- DockerHub Repository:
 Have a DockerHub repository ready to store your Docker images.
@@ -111,4 +109,26 @@ Have a DockerHub repository ready to store your Docker images.
 
  * Now when we commit new changes on Github with the Specified Branch our Jenkins pipeline should trigger automatically.
 
- 
+# Jenkinsfile Overview
+
+The Jenkinsfile orchestrates the pipeline:
+
+* 1- Builds the Docker image.
+* 2- Pushes the image to the DockerHub repository.
+* 3- Deploys the image to Kubernetes Minikube.
+
+### Note: Customize the Jenkinsfile
+
+* Change the DockerHub credentials in line #16.
+* Update the username in line #17.
+* Change the Kubernetes credentials in line #28.
+
+### Kubernetes Manifest File (deployment.yaml)
+
+The `deployment.yaml` file creates a Pod and Service in Kubernetes Minikube.
+
+## `account.yaml ` File Details: 
+
+* This file is used for creating a service account with the secret for the Kubernetes-plugin in Minikube.
+
+* Feel free to adapt these files and configurations based on your project requirements. Happy coding! 🚀
