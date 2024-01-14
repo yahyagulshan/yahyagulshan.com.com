@@ -110,3 +110,5 @@ Have a DockerHub repository ready to store your Docker images.
  ![Screenshot from 2024-01-13 00-50-25](https://github.com/yahyagulshan/jenkins-kubernetes-pipeline/assets/59036269/d0a1ca88-66d0-4710-a3dc-3cb6d3fc2158)
 
  * Now when we commit new changes on Github with the Specified Branch our Jenkins pipeline should trigger automatically.
+
+ 
