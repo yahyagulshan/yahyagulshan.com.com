@@ -18,15 +18,15 @@ hiddenFromHomePage: true
 
 # Install Jenkins on Ubuntu-22.04
 
-### Prerequisites
+## Prerequisites
 
-#### Minimum hardware requirements:
+### Minimum hardware requirements:
 
 * 256 MB of RAM
 
 * 1 GB of drive space (although 10 GB is a recommended minimum if running Jenkins as a Docker container)
 
-## Commands for Installing Jenkins on Ubuntu 22.04
+#### Commands for Installing Jenkins on Ubuntu 22.04
 
 * `sudo apt update`
 --- 
@@ -69,4 +69,5 @@ hiddenFromHomePage: true
 * Copy that and paste on the browser 
 ---
 * New page opens here create new username and password for login to Jenkins.
+
 {{< image src="/img/credentials/jenkins-install.png" caption=" follow the instruction ">}}

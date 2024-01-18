@@ -41,7 +41,7 @@ hiddenFromHomePage: true
 ---
 * What is the scope this credentials we used for Globaly or System.
 ---
-* give username and password 
+* Give username and password 
 ---
 * Give a suiteable ID for this credential
 ---
