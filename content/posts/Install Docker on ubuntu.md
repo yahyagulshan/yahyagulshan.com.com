@@ -19,7 +19,8 @@ hiddenFromHomePage: true
 * for install Docker on ubuntu machine need to update the system.
 ---
 * `sudo apt-gte update`
-* 1- Set up Docker's apt repository.
+---
+# 1- Set up Docker's apt repository.
 
 ---
 * Add Docker's official GPG key:
@@ -47,4 +48,5 @@ hiddenFromHomePage: true
 
 ---
 * Verify that the Docker Engine installation is successful by running the hello-world image.
+
 `sudo docker run hello-world`
