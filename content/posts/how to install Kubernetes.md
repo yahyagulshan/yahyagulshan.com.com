@@ -40,4 +40,3 @@ hiddenFromHomePage: true
 * To stop the minikube, run `minikube stop`
 * To delete the minikube, run `minikube delete`
 * To Start the minikube, run `minikube start`
-* 
