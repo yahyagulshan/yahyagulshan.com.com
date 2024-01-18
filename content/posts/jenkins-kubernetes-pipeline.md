@@ -10,7 +10,7 @@ tags:
 - Jenkins
 - 
 categories:
-- OpenVPN
+
 draft: false
 hiddenFromHomePage: true
 ---
