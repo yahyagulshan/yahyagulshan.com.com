@@ -20,7 +20,7 @@ hiddenFromHomePage: true
 ---
 * `sudo apt-gte update`
 ---
-# 1- Set up Docker's apt repository.
+## 1- Set up Docker's apt repository.
 
 ---
 * Add Docker's official GPG key:
