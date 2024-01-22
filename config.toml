@@ -236,7 +236,7 @@ URL = "s3://yahyagulshan.com/?region=us-east-1" #your bucket here
   enable = true
   # Google Analytics
   [params.analytics.google]
-    id = "UA-164624276-1"
+    # id = "UA-164624276-1"
     # whether to anonymize IP
     anonymizeIP = false
       
